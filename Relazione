@@ -1,0 +1,34 @@
+ENG 
+The DHCP (Dynamic Host Configuration Protocol), is essential as it automatically assigns IP addresses to devices on a specific network. It's very important because it provides key parameters:
+IP address = 192.168.7.3;
+Subnet Mask = 255.255.255.0;
+IP Gateway = 192.168.7.1;
+DNS = 8.8.8.8 (Google).
+
+The DHCP process is know as DORA (Discover, Offer, Request, Acknowledge). The device sends a request to receive an available IP address to a DHCP server (Discover), wich responds with an offer (Offer). The client
+device then replies that is wishes to use that specific IP (Requests), and the DHCP server will provide the IP (Acknowledge).
+
+Advantages:
+Conflicts are avoided;
+IP management does not need to be configured manually, and addresses are managed by serves.
+
+Disadvantages:
+Scarcity of available IPs, may prevent networks from connecting.
+
+ITA
+Il protocollo DHCP (Dynamic Host Configuration Protocol), è fondamentale perché assegna automaticamente gli indirizzi IP ai dispositivi di una determinata rete, è importante anche perché ci dispone di parametri
+fondamentali:
+Indirizzo IP = 192.168.7.3;
+Subnet Mask = 255.255.255.0;
+IP di Gateway = 192.168.7.1;
+DNS = 8.8.8.8 (Google).
+
+Il processo del DHCP viene DORA (Discover, Offer, Request, Acknowledge), il dispositivo manda una richiesta per ricevere un indirizzo IP ad un server DHCP (Discover), che risponde con l'offerta (Offer). 
+Successivamente il dispositivo client risponde che desidera utilizzare quel determinato IP (Request) ed il server DHCP fornirà l'IP (Acknowledge).
+
+Vantaggi: 
+Si evitano conflitti;
+La gestione IP non deve essere configurata manualmente, inoltre gli indirizzi IP sono gestiti dai DHCP server.
+
+Svantaggi:
+Scarsità di IP dispoibili, infatti le reti non potrebbero riuscire a connettersi.
